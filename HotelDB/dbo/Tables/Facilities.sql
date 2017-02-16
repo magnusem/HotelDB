@@ -1,4 +1,5 @@
 ﻿CREATE TABLE [dbo].[Facilities]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[Facility_no] INT NOT NULL PRIMARY KEY, 
+    [Description] NVARCHAR(50) NOT NULL
 )
